@@ -1,3 +1,9 @@
+body {
+  background-color: #BBBBBB;
+}
+
+
+
 .jumbotron {
   font-family: 'Overpass Mono', monospace;
   text-align: center;
@@ -8,11 +14,25 @@
 }
 
 #sidebar {
-  background-color: #E7DFC3;
-  height: 500px;
+  background-color: #EC4622;
+  height: 600px;
+  border: thin solid black;
+  color: #FFFFFF;
+
 }
 
 a:hover {
   text-decoration: none;
-
+  color: #FFFFFF;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+h2, h3, h4 {
+  font-family: 'Overpass Mono', monospace;
+}
+ p, li {
+   font-size: 15px;
+ }
