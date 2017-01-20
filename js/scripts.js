@@ -13,7 +13,6 @@ var pingPong = function(userNumber){
         result.push(i);
     }
   }
-
   return result;
 };
 

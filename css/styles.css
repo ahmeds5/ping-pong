@@ -1,0 +1,18 @@
+.jumbotron {
+  font-family: 'Overpass Mono', monospace;
+  text-align: center;
+  margin-top: 20px;
+  border: thin solid black;
+  background-color: #EC4622;
+  color: #FFFFFF;
+}
+
+#sidebar {
+  background-color: #E7DFC3;
+  height: 500px;
+}
+
+a:hover {
+  text-decoration: none;
+
+}
