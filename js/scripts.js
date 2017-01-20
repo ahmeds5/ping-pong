@@ -3,7 +3,11 @@
 var pingPong = function(userNumber){
   var result = [];
   for(var i = 1; i <= userNumber; i++){
-      result.push(i);
+      if(i % 15 === 0) {
+        result.push('ping-pong');
+    } else {
+        result.push(i);
+    }
   }
 
   return result;
