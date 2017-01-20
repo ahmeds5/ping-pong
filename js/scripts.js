@@ -5,6 +5,8 @@ var pingPong = function(userNumber){
   for(var i = 1; i <= userNumber; i++){
       if(i % 15 === 0) {
         result.push('ping-pong');
+    } else if(i % 5 === 0) {
+        result.push('pong');
     } else {
         result.push(i);
     }
