@@ -1,23 +1,13 @@
 // Business Logic
 
-var pingPong= function(userNumber) {
-  var result= [];
-  for (var i = 1; i <= userNumber ; i++) {
-    var index= result.indexof(i);
+var pingPong = function(userNumber){
+  var result = [];
+  for(var i = 1; i <= userNumber; i++){
+      result.push(i);
   }
 
-  return result
-
+  return result;
 };
-
-
-
-
-
-
-
-
-
 
 
 
